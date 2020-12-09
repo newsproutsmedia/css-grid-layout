@@ -1,13 +1,13 @@
 {
-  "name": "node-project-starter",
+  "name": "css-grid-layout-starter",
   "version": "1.0.0",
-  "description": "NodeJS Project Starter",
+  "description": "NodeJS Project Starter - CSS Grid Layout",
   "main": "app.js",
   "scripts": {
     "test": "jest --verbose --runInBand --coverage --forceExit",
     "start": "node app",
     "dev": "nodemon app",
-    "scss": "node-sass scss/main.scss public/css/main.css",
+    "scss": "node-sass scss/styles.scss public/css/styles.css",
     "watch-scss": "node-sass -w scss -o public/css",
     "watch": "npm run dev & npm run watch-scss"
   },

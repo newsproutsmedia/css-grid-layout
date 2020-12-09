@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;0,800;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap");
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif; }
+
+h2 {
+  font-weight: 200; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100; }
+
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap; }
+
+.align-center {
+  align-items: center; }
+
+.spread {
+  justify-content: space-between; }
+
+.h-hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.h-hidden-invisible {
+  visibility: hidden; }
+
+.h-hidden-transparent {
+  opacity: 0;
+  pointer-events: none; }
+
+.inactive {
+  opacity: 0.5; }
+
+.opacity-0 {
+  opacity: 0.0; }
+
+.opacity-10 {
+  opacity: 0.1; }
+
+.opacity-30 {
+  opacity: 0.3; }
+
+.opacity-50 {
+  opacity: 0.5; }
+
+.opacity-70 {
+  opacity: 0.7; }
+
+.opacity-100 {
+  opacity: 1; }
+
+.btn {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #61D9FA;
+  color: #ffffff;
+  font-size: 100%; }
+  .btn:hover {
+    cursor: pointer; }
+
+.btn-default {
+  background-color: #61D9FA;
+  color: #ffffff; }
+
+.btn-ok {
+  background-color: #ffffff;
+  color: #333333; }
+
+.btn-send {
+  background-color: #61D9FA;
+  color: #ffffff; }
+
+.btn-link {
+  background-color: transparent;
+  border: none;
+  color: #61D9FA; }
+
+button:disabled,
+button[disabled] {
+  background-color: #333333 !important;
+  color: #999999 !important;
+  opacity: 0.5 !important; }
+
+main {
+  padding-left: 1em;
+  padding-right: 1em; }
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding-left: 1em; }
+
+header {
+  background-color: #333333;
+  color: #ffffff;
+  padding-left: 1em; }
+
+#app {
+  display: grid;
+  grid-template-rows: 80px auto 80px;
+  height: 100vh; }
+
+main {
+  overflow: auto;
+  height: calc(100vh - 160px); }

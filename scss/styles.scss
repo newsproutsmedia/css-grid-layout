@@ -1,4 +1,5 @@
 // *** Base ***
+@import "./base/reset";
 @import "./base/colors";
 @import "./base/typography";
 
@@ -20,9 +21,10 @@
 
 
 // *** Layout ***
-@import "./layout/body";
+@import "layout/main";
 @import "./layout/footer";
 @import "./layout/header";
+@import "./layout/layout";
 @import "./layout/aside";
 
 // *** Pages ***
