@@ -1,4 +1,4 @@
-# node-project-starter
+# CSS Grid Layout Starter
 Basic starter setup for NodeJS/Express project using Scss
 
 ### Express Setup
