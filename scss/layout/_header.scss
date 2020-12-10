@@ -2,4 +2,54 @@ header {
   background-color: $charcoal;
   color: $white;
   padding-left: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  height: 80px;
+  min-width: 300px;
+}
+
+.page-dimensions {
+  padding-right: 2em;
+  padding-top: 1.5em;
+  align-self: center;
+
+  &-item {
+    margin-left: 2em;
+  }
+}
+
+.header-menu {
+  align-self: flex-end;
+  height: 65%;
+  display: flex;
+  &-item {
+    margin-left: 2em;
+  }
+}
+
+.menu-item {
+  padding-top: 10px;
+  width: 60px;
+  text-align: center;
+  &-selected {
+    padding-top: 10px;
+    width: 60px;
+    text-align: center;
+    background-color: #999999;
+    border-top: 4px solid $accent;
+  }
+}
+
+@media(min-width: 750px) {
+
+  .header-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+
 }
