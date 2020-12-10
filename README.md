@@ -1,5 +1,6 @@
 # CSS Grid Layout Starter
-Basic starter setup for NodeJS/Express project using Scss
+
+Starter kit for page layout using CSS grid. Build from "[node-project-starter](https://github.com/newsproutsmedia/node-project-starter)" repository.
 
 ### Express Setup
 This starter exposes the index.html page in a public directory. No express endpoints have been set up yet.

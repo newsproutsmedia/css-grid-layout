@@ -1,12 +1,16 @@
 $border-radius: 5px; // Border-radius
-$btn-border-radius: 5px; // Button border-radius
+$btn-border-radius: 20px; // Button border-radius
+
+
 
 .btn {
   border-radius: $btn-border-radius;
+  padding: 10px 30px;
+  border: none;
   text-align: center;
-  background-color: $accent;
-  color: $text-primary;
-  font-size: 100%;
+  background-color: $white;
+  color: $charcoal;
+  font-size: 80%;
   &:hover {
     cursor: pointer;
   }
@@ -38,4 +42,5 @@ button[disabled]{
   background-color: $charcoal !important;
   color: #999999 !important;
   opacity: 0.5 !important;
+  pointer-events: none;
 }

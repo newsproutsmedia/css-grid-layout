@@ -19,13 +19,13 @@
 @import "./components/list";
 @import "./components/navigation";
 
-
 // *** Layout ***
-@import "layout/main";
-@import "./layout/footer";
-@import "./layout/header";
+@import "./layout/gridAreas";
 @import "./layout/layout";
-@import "./layout/aside";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/main";
+@import "./layout/footer";
 
 // *** Pages ***
 @import "./pages/index";
