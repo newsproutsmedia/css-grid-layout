@@ -1,4 +1,5 @@
 # CSS Grid Layout Starter
+
 Starter kit for page layout using CSS grid. Build from "[node-project-starter](https://github.com/newsproutsmedia/node-project-starter)" repository.
 
 ### Express Setup
